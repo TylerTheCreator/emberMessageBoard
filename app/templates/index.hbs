@@ -1,10 +1,23 @@
 <h1> Welcome to Super Posts </h1>
 
+We hope you find exactly what you're looking for in a place to stay.
+
+<h2> Available Posts </h2>
 
 <ul>
-  {{#each model as |post|}}
-    {{post-tile post=post update="update" destroyPost="destroyPost"}}
+  {{#each model.posts as |post|}}
+    {{post-tile post=post}}
   {{/each}}
 </ul>
 
 {{new-post save2="save3"}}
+
+<h2> answers </h2>
+
+<ul>
+  {{#each model.answers as |answers|}}
+    <li>{{answers.user}}</li>
+  {{/each}}
+</ul>
+
+<hr>
