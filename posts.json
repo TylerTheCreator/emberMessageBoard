@@ -1,0 +1,15 @@
+{ "posts": [{
+    "user": "Jim",
+    "description": "How many trees?",
+    "answers": "10",
+  }, {
+    "user": "Mike",
+    "description": "where is Seattle",
+    "answers": "south of the border",
+  }, {
+    "user": "Bob",
+    "description": "How do you spell my name?",
+    "answers": "weird",
+
+  }]
+}
