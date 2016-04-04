@@ -1,4 +1,11 @@
-<h1>Hi welcome to message board.</h1>
+<h1> Welcome to messageBoard Posts </h1>
 
+We hope you find exactly what you're looking for in a place to stay.
 
-<h2>Posts</h2>
+<ul>
+  {{#each model as |post|}}
+    {{post-tile post=post destroyPost="destroyPost"}}
+  {{/each}}
+</ul>
+
+{{new-post save2="save3"}}
