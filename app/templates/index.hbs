@@ -1,10 +1,9 @@
-<h1> Welcome to messageBoard Posts </h1>
+<h1> Welcome to Super Posts </h1>
 
-We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
   {{#each model as |post|}}
-    {{post-tile post=post destroyPost="destroyPost"}}
+    {{post-tile post=post update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
 

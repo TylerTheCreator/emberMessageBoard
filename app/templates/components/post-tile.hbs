@@ -1,3 +1,4 @@
 <li>{{post.user}}'s {{post.description}}
-    <button {{action 'delete' post}}>Delete</button>
+  {{update-post post=post update="update"}}
+  <button {{action 'delete' post}}>Delete</button>
 </li>
