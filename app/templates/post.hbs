@@ -1,1 +1,5 @@
-<h2>More information about {{model.user}}'s {{model.description}}</h2>
+<h2>More information about {{model.user}}'s {{model.description}}:</h2>
+
+{{update-post post=model update="update"}}
+
+{{post-detail post=model destroyPost="destroyPost"}}
